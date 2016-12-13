@@ -1,4 +1,4 @@
-# ev3-myblockeditor
+# myblockeditor
 
 This project is for educational purposes only, it demonstrates parsing and refactoring a programming language expressed in XML.
 
