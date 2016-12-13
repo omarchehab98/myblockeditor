@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>My Block Editor</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vex-js/2.3.4/css/vex.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vex-js/2.3.4/css/vex-theme-plain.min.css">
+	<link rel="stylesheet" href="css/stylesheet.css">
+</head>	
+
+<body>
+
+<div class="header">
+	<ul class="menu not-selectable">
+		<li id="open"><i class="fa fa-folder-open-o"></i> Open</li>
+		<input type="file" id="open-hidden" style="display: none;" accept=".ev3"/>
+		<li id="save"><i class="fa fa-save"></i> Save</li>
+		<li id="undo"><i class="fa fa-rotate-left"></i> Undo</li>
+		<li id="redo"><i class="fa fa-rotate-right"></i> Redo</li>
+	</ul>
+	<ul class="projects not-selectable">
+	</ul>
+</div>
+
+<div class="project rigid">
+	<div class="workspace rigid"></div>
+	<div class="selection rigid" style="display: none;"></div>
+	<div class="contextmenu rigid" style="display: none;">
+		<ul class="menu not-selectable">
+			<li id="arrange"><i class="fa fa-arrows"></i> Arrange</li>
+			<li id="search"><i class="fa fa-search"></i> Search</li>
+		</ul>
+	</div>
+</div>
+
+<div class="file-upload" style="display: none;">
+	<i id="close" class="fa fa-close fa-lg" style="display: none;"></i>
+	<div class="center">
+		<p><i class="fa fa-upload fa-5x"></i></p>
+		<div id="errors"></div>
+	</div>
+</div>	
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.0.0/jszip.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jsPlumb/2.0.7/jsPlumb.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dagre-d3/0.4.17/dagre-d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vex-js/2.3.4/js/vex.combined.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2014-11-29/FileSaver.min.js"></script>
+<script src="js/jsxml.js"></script>
+<script src="js/myblockeditor.js"></script>
+
+</body>
+</html>
