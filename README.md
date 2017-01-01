@@ -41,7 +41,7 @@ All processing is done in the browser which makes it possible to run locally
 This project was written when I was in highschool, I did know the importance of
 documentation in software development.
 
-[index.js](https://github.com/omarchehab98/myblockeditor)
+[index.js](https://github.com/omarchehab98/myblockeditor/edit/master/src/js/index.js)
 holds all the code specific to this project. Despite it being monolithic and
 undocumented, it can be worked with if the top level functions are collapsed as
 it becomes self explanatory to navigate the file.
