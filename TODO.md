@@ -1,11 +1,11 @@
 # TODO
 
- ☐ Deleting **My Blocks**
+☐ Deleting **My Blocks**
 
  * Remove all wires and references related to the deleted **My Block**
 
- ☐ Adding parameters
+☐ Adding parameters
 
- ☐ Removing parameters
+☐ Removing parameters
 
  * Remove wires that are connected to the **My Block**
