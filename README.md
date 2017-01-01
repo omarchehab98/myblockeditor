@@ -11,15 +11,15 @@ Software](https://www.lego.com/en-us/mindstorms/downloads/download-software).
 * Copy the contents of `/Resources/MyBlocks/images` from EV3's directory to
 `/public/assets/import`
 
-A *My Block* in the EV3 programming language is the equivalent of a *function*
-in written programming language. To modify a *My Block's* parameters and options
-in LEGO's software is to delete it and create it again, which causes all the
-wiring to mess up.
+A **My Block** in the EV3 programming language is the equivalent of a
+**function** in written programming language. To modify a **My Block's**
+parameters and options in LEGO's software is to delete it and create it again,
+which causes all the wiring to mess up.
 
 ## About
 
 This web application fills in the gaps of LEGO's EV3 Mindstorms Programming
-Software, introducing *My Block* refactoring and viewing your program as
+Software, introducing **My Block** refactoring and viewing your program as
 an abstracted set of functions.
 
 It allows users to upload their `.ev3` source file and
@@ -50,8 +50,9 @@ it becomes self explanatory to navigate the file.
 
 * [jQuery](https://github.com/jquery/jquery)
 * [Font Awesome](https://github.com/FortAwesome/Font-Awesome)
-* [Dagre D3](https://github.com/cpettitt/dagre-d3) - laying out the *My Blocks*
-* [JSPlumb](https://github.com/jsplumb/jsPlumb) - connecting the *My Blocks*
+* [Dagre D3](https://github.com/cpettitt/dagre-d3) - laying out the
+**My Blocks**
+* [JSPlumb](https://github.com/jsplumb/jsPlumb) - connecting the **My Blocks**
 * [VexJS](https://github.com/hubspot/vex) - popup dialog boxes
 * [JSZip](https://github.com/Stuk/jszip) - creating, reading, and editing `zip`
 files. LEGO's file extension `ev3` is actually just a `zip` file, containing
